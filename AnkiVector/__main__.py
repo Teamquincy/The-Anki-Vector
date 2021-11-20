@@ -82,7 +82,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Quincy To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Quincy To Youre Group ➕", url="t.me/Miss_Quincybot?startgroup=true"
         ),
     ],
 ]
