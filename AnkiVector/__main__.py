@@ -64,19 +64,21 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*🥀Hello lovely🥀, I'm Quincy🍂
-
-🎡A lovely bot with lots of Tools.I'm here to help you manage your groups.🍎My lovely owner is @SANTA_K1 🇱🇰🥀🎡If you have any problem contact us on @Quincy_Support♥️ Get updates @Quincy_updates🥀Get start me hit /help or buttons in the bellow🍂*
+*🥀Hello lovely🥀,I'm Quincy,
+A lovely bot with lots of Tools.
+I'm here to help you manage your groups.🍎My lovely owner is @SANTA_K1 🇱🇰🥀
+🎡If you have any problem contact us on @Quincy_Support♥️ Get updates @Quincy_updates🥀
+Get start me hit /help or buttons in the bellow🍂*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🍎Updates channel🍎", url="https://t.me/Quincy_Updates"),
-        InlineKeyboardButton(text="🎈Support Group🎈", url="https://t.me/Quincy_support"),
+        InlineKeyboardButton(text="🥀Support🥀", url="https://t.me/TeamQuincy"),
+        InlineKeyboardButton(text="📆Credits📆", url="https://t.me/QuincyCredits"),
     ],
     [
-        InlineKeyboardButton(text="🎡Bot owner🎡", url="https://t.me/SANTA_K1"),
-        InlineKeyboardButton(text="🍒Help🍒", callback_data="help_back"),
+        InlineKeyboardButton(text="🍂Owner🍂", url="https://t.me/SANTA_K1"),
+        InlineKeyboardButton(text="🚶Help & commands🧘‍♂", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
@@ -91,12 +93,12 @@ ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEDU5phmNFEN4wgfTf7iSZJ7tqPcTMJtQACfgMAAtb3yV
 HELP_STRINGS = f"""
 *🥀Heya this is my powerfull commands🥀 :* 🍎
 
-🖍️ /start: Starts me! You've probably already used this.
-🖍️ /help: Click this, I'll let you know about myself!
-🖍️ /donate: You can support my creater using this command.
-🖍️ /settings: 
-   🖍️ in PM: will send you your settings for all supported modules.
-   🖍️ in a Group: will redirect you to pm, with all that chat's settings.
+🖍️ /start: Starts me! You've probably already used this📅.
+📅 /help: Click this, I'll let you know about myself📅!
+🖍️ /donate: You can support my creater using this command📅.
+📅 /settings: 
+   🖍️ in PM: will send you your settings for all supported modules📅.
+   📅 in a Group: will redirect you to pm, with all that chat's settings📅.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
